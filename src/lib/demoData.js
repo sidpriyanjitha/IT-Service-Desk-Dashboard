@@ -2,7 +2,7 @@ import { subHours, subDays } from 'date-fns';
 import { calculateDueDate } from '../utils/sla';
 
 export const demoUsers = [
-  { id: 'u-admin', full_name: 'Avery Patel', email: 'admin@servicedesk.dev', role: 'Admin', department: 'IT Operations', is_active: true, password: 'password123' },
+  { id: 'u-admin', full_name: 'Sid Priyanjitha', email: 'admin@servicedesk.dev', role: 'Admin', department: 'IT Operations', is_active: true, password: 'password123' },
   { id: 'u-tech-1', full_name: 'Maya Chen', email: 'maya.chen@servicedesk.dev', role: 'Technician', department: 'Infrastructure', is_active: true, password: 'password123' },
   { id: 'u-tech-2', full_name: 'Jordan Miles', email: 'jordan.miles@servicedesk.dev', role: 'Technician', department: 'Endpoint Support', is_active: true, password: 'password123' },
   { id: 'u-tech-3', full_name: 'Sam Okafor', email: 'sam.okafor@servicedesk.dev', role: 'Technician', department: 'Security', is_active: true, password: 'password123' },
